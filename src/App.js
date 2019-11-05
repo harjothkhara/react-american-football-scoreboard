@@ -30,6 +30,7 @@ function App() {
           </div>
         </div>
         <BottomRow />
+        npmfff
       </section>
       <section className='buttons'>
         <div>
@@ -75,6 +76,15 @@ function App() {
             className='homeButtons__fieldGoal'
           >
             Reset
+          </button>
+          <button
+            onClick={() => {
+              sethomeScore(0);
+              setawayScore(0);
+            }}
+            className='homeButtons__fieldGoal'
+          >
+            New Game
           </button>
         </div>
       </section>
